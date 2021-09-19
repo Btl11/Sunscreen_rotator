@@ -1,4 +1,10 @@
+
+#define TS_ENABLE_SSL
 #include <Arduino.h>
+#include <ThingSpeak.h>
+#include <ArduinoJson.h>
+#include <WiFiClientSecure.h>
+
 
 void setup() {
   // put your setup code here, to run once:
